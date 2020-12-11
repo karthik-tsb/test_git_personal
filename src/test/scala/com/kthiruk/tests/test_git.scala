@@ -16,4 +16,8 @@ class test_git extends AnyFlatSpec {
   "MyTest.sub_numbers(5,4)" should "return 1" in {
     assert(a.sub_numbers(5,4) == 1)
   }
+
+  "MyTest.sub_numbers(4,5)" should "return -1" in {
+    assert(a.sub_numbers(4,5) == -1)
+  }
 }
