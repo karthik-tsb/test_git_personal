@@ -19,5 +19,7 @@ jobs:
         java-version: 1.8
     - name: Run Test echo
       run: echo "Running tests in test_git_personal Repo"
+    - name: Display the build.properties
+      run: cat project/build.properties
     - name: Run tests
       run: sbt test
