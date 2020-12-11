@@ -23,3 +23,5 @@ jobs:
       run: cat project/build.properties
     - name: Run tests
       run: sbt test
+    - name: Finish Test echo
+      run: echo "Completed tests in test_git_personal Repo"
