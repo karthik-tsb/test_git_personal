@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/karthikt/test_scribd/test_git_personal/src/test/scala/com/kthiruk/tests/test_git.scala:9:33: value in is not a member of String[0m
-[0m[[0m[31merror[0m] [0m[0m    "return normalized results" in {[0m
-[0m[[0m[31merror[0m] [0m[0m                                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/karthikt/test_scribd/test_git_personal/src/test/scala/com/kthiruk/tests/test_git.scala:11:27: value shouldBe is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m      a.add_numbers(3, 4) shouldBe 7[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

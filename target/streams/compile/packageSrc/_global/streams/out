@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/karthikt/test_scribd/test_git_personal/target/scala-2.13/test_git_personal_2.13-0.1-spark3-sources.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/kthiruk/test_git/MyTest.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/karthikt/test_scribd/test_git_personal/src/main/scala/com/kthiruk/test_git/MyTest.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/kthiruk/test_git/test_git_object.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/karthikt/test_scribd/test_git_personal/src/main/scala/com/kthiruk/test_git/test_git_object.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
