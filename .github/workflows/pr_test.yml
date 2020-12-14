@@ -1,0 +1,22 @@
+name: PR to master
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+    branches:
+      - master
+
+jobs:
+  pr_title:
+    name: PR Title Jira link validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run regex check
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          if [[ "$TITLE" =~ [A-D]{2,3}-[0-9]{1,4} ]]; then
+            echo "PR Title '$TITLE' contains JIRA ticket"
+          else
+            echo "PR title '$TITLE' does not contain JIRA ticket pattern like ABC-123"
+            exit 1
+          fi
