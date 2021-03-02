@@ -19,4 +19,5 @@ jobs:
           else
             echo "PR title '$TITLE' does not contain JIRA ticket pattern like ABC-123"
             exit 1
-          fi
+          fi 
+
