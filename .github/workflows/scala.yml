@@ -25,6 +25,8 @@ jobs:
       run: cat project/build.properties
     - name: Finish Test echo
       run: echo "Completed tests in test_git_personal Repo"
+    - name: Docker Build
+      run: docker build -t karthikt/myimage .
     - name: Run Assembly
       run: sbt assembly
     - name: Copy created csv file to s3 dir
