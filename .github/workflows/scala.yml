@@ -21,7 +21,7 @@ jobs:
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
     - name: Docker run
-      run: docker run karthiktsb/myimage Arjun
+      run: docker run karthiktsb/pytry Arjun
     - name: Run Test echo
       run: echo "Running tests in test_git_personal Repo"
     - name: Run Assembly
