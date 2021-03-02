@@ -27,6 +27,8 @@ jobs:
       run: echo "Completed tests in test_git_personal Repo"
     - name: Docker Build
       run: docker build -t karthikt/myimage .
+    - name: Docker Build
+      run: docker run karthikt/myimage Arjun
     - name: Run Assembly
       run: sbt assembly
     - name: Copy created csv file to s3 dir
