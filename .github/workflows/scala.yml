@@ -25,3 +25,5 @@ jobs:
       run: sbt test
     - name: Finish Test echo
       run: echo "Completed tests in test_git_personal Repo"
+    - name: Run Assembly
+      run: sbt assembly
